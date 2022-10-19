@@ -1,0 +1,22 @@
+button {
+    background-color: aqua;
+    border-color: rgb(255, 0, 234);
+    color: rgb(17, 16, 16);
+    font-family: 'Atma', cursive;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 150px;
+    font-family: 'Atma', cursive;
+    font-weight: bold;
+
+
+}
