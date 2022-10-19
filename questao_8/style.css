@@ -1,0 +1,18 @@
+button {
+    background-color: lightblue;
+    border-color: rgb(217, 255, 0);
+    color: rgb(14, 9, 9);
+    font-family: 'Alkalami', serif;
+}
+
+body {
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     text-align: center;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 500px;
+     height: 150px;
+     font-family: 'Alkalami', serif;
+    }
