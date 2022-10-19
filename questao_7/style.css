@@ -1,0 +1,27 @@
+button {
+    background-color: lightgreen;
+    border-color: aqua;
+    color: rgb(5, 4, 4);
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 150px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+
+}
+
+.pares {
+    color: blue;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+}
