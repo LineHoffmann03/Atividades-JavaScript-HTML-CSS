@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 150px;
+    font-family: 'Xanh Mono', monospace;
+    font-weight: bold;
+}
+.jogodaVelha{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    position: absolute;
+    top: 80%; 
+    margin-top: -25px;
+    left: 50%; 
+    margin-left: -150px;
+    
+}    
+.JogoVelha{
+    width: 80px;
+    height: 80px; 
+    background-color: rgb(231, 127, 127);
+    margin-left: 10px;
+    font-size: 50px;
+    outline: 2px solid ;
+    cursor: pointer;
+    
+}
+h1{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 150px;
+}
+#img{
+    margin-right: 30px;
+    
+}
+
+   
