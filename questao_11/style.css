@@ -1,0 +1,33 @@
+#oCriar {
+    background-color: plum;
+    border-color: black;
+    color: rgb(3, 3, 3);
+    font-family: 'Alike Angular', serif;
+}
+
+#oResetar {
+    background-color: aquamarine;
+    border-color: black;
+    color: black;
+    font-family: 'Alike Angular', serif;
+}
+
+.questao {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 150px;
+    font-family: 'Alike Angular', serif;
+}
+
+.quadrado{
+
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
