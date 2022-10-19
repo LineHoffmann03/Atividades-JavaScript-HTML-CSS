@@ -1,0 +1,40 @@
+.questao {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 150px;
+    font-family: 'Flamenco', cursive;
+}
+
+button {
+    font-family: 'Flamenco', cursive;
+    color: black;
+    background-color: lightcoral;
+}
+
+table {
+    border: 1px #000000 solid;
+}
+
+table th {
+   
+    color: black;
+}
+
+table td {
+    background-color: lightgray;
+    color: #0c0c0c;
+    width: 100px;
+}
+tfoot 
+td{
+    width: 180px;
+   
+}
+th:nth-child(odd) {
+    background-color: #c98c8c;
+  }

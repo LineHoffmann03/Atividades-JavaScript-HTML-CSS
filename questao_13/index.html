@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="questao">
+        <p>Crie um componente que possua um botão criar relatório que quando acionado deve mostrar um
+            relatório de resultados da disciplina javascript para 20 alunos, no formato de tabela. As notas
+            deverão ser números inteiros entre 0 e 100, criadas aleatoriamente. Cada aluno deve ser
+            representado por um nome, número e nota. A impressão do relatório deve ter:
+            um título, resultados mostrados linha a linha no formato " Aluno nr xx - Nota yy [(A/RE) PROVADO]"; e um
+            rodapé com estatística final no formato "APROVADOS: XX (xx%) | REPROVADOS: YY (yy%)". Cada linha do
+            relatório deve
+            ser zebrada. </p>
+        <button type="submit" id="oCriarRelatorio">Criar Relatório</button>
+    </div>
+    <table id="table">
+        <thead id="head-table">
+            <tr>
+                <th colspan="3">Relatório disciplina Javascript</th>
+            </tr>
+        </thead>
+        <tbody id="body-tabela">
+            <td><strong>Nomes</strong></td>
+            <td><strong>Notas</strong></td>
+            <td><strong>Situação</strong></td>
+        </tbody>
+        <tbody id="body-table">
+
+        </tbody>
+        <tfoot id="foot-table">
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+<script src="documento.js"></script>
+
+</html>
